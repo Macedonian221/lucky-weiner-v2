@@ -1,0 +1,61 @@
+body{
+    background-color:black
+}
+    
+   
+
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(
+        to left,
+        indigo,
+        purple,
+        blue);
+        font-size: 40px;
+        width:fit-content;
+        margin:40px auto;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color:transparent;
+        animation: anim 2s linear infinite;
+        
+    }
+        
+        @keyframes anim{
+    to{background-position-x: 500px;}
+    
+}
+
+
+.text{
+    max-inline-size: 40%;
+  font-size: medium;
+  color:white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.text2,.text3,.text4{
+    line-height: 2em;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+
+form{
+    line-height: 2em;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+
+button{
+    line-height: 2em;
+    background-color: indigo;
+    
+}
+
+button:hover{
+background-color:purple
+}
